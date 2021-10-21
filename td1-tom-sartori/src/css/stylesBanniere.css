@@ -1,0 +1,21 @@
+/******************/
+/* styles banière */
+/******************/
+
+#banniere {
+  min-height: 200px;
+}
+
+.img-banniere {
+  width: 900px;
+  height: 200px;
+  position:absolute;
+}
+
+.visible {
+  opacity: 1;
+}
+
+.cachee {
+  opacity: 0;
+}

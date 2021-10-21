@@ -1,0 +1,29 @@
+/****************************/
+/* styles galerie de fleurs */
+/****************************/
+
+.galerie {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.ligne-galerie {
+  margin:5px auto ;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.img-galerie {
+  max-width: 30%;
+  margin-top:5px;
+  padding: 4px;
+  line-height: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.055);
+  /*cursor:pointer;*/
+}
